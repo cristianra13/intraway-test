@@ -5,6 +5,8 @@ _Prueba técnica para Intraway donde a partir de dos números dados, se validan 
 2) Si el número es múltiplo de 5 -> imprimir “Buzz” 
 3) Si es múltiplo de ambos -> imprimir “FizzBuzz”
 
+## Backend
+
 ### Pre-requisitos 📋
 
 _1. Se debe tener una base de datos instalada localmente en Mongo
@@ -94,3 +96,21 @@ Para este obtendremos como resultado de ejemplo:
     }
 ]
 ```
+
+
+## Frontend
+El proyecto cuenta con su parte visual desarrollada en Angular 11.
+
+### Pre-requisitos 📋
+_1. Es importante que al clonar elproyecto, se instalen las dependencias de npm
+```
+npm install
+```
+_2. Una vez instaladas, se debe ejecutar el proyecto con:
+
+```
+ng serve -o
+```
+
+## Endpoints
+El Proyecto se desplegará en la url http://localhost:4200
