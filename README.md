@@ -14,8 +14,7 @@ _2. Se debe contar  con la versión de 11 o superior para ejecutar el proyecto_
 _3. Se debe contar con la instalación de Maven_
 
 ### Instalación 🔧
-
-_ Se deben descargar las dependencias del proyecto inicialmente con:_
+_Se deben descargar las dependencias del proyecto inicialmente con:_
 
 ```
 mvn clean install
