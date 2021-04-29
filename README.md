@@ -1,6 +1,6 @@
 # Intraway-test
 
-_Prueba técnica para Intraway donde a partir de dos números dados, se validan los múltiplos de 3, 5 o ambos.
+_Prueba técnica para Intraway donde a partir de dos números dados, se validan los múltiplos de 3, 5 o ambos._
 1) Si el número es múltiplo de 3 -> imprimir “Fizz” 
 2) Si el número es múltiplo de 5 -> imprimir “Buzz” 
 3) Si es múltiplo de ambos -> imprimir “FizzBuzz”
@@ -9,33 +9,33 @@ _Prueba técnica para Intraway donde a partir de dos números dados, se validan 
 
 ### Pre-requisitos 📋
 
-_1. Se debe tener una base de datos instalada localmente en Mongo
-_2. Se debe contar  con la versión de 11 o superior para ejecutar el proyecto
-_3. Se debe contar con la instalación de Maven
+_1. Se debe tener una base de datos instalada localmente en Mongo_
+_2. Se debe contar  con la versión de 11 o superior para ejecutar el proyecto_
+_3. Se debe contar con la instalación de Maven_
 
 ### Instalación 🔧
 
-_ Se deben descargar las dependencias del proyecto inicialmente con:
+_ Se deben descargar las dependencias del proyecto inicialmente con:_
 
 ```
 mvn clean install
 ```
 
 ## Ejecución de pruebas unitarias ⚙️
-_El proyecto cuenta con sus respectivas pruebas unitarias las cuales se puede ejecutar con:
+_El proyecto cuenta con sus respectivas pruebas unitarias las cuales se puede ejecutar con:_
 
 ```
 mvn test
 ```
 
-_Una vez ejecutadas, el proyecto cuenta con un plugin llamado **Jacoco** con el cual se puede ver el pocentaje de cubrimiento de pruebas. Estás quedan almacenadas en la ruta:
+_Una vez ejecutadas, el proyecto cuenta con un plugin llamado **Jacoco** con el cual se puede ver el pocentaje de cubrimiento de pruebas. Estás quedan almacenadas en la ruta:_
 ```
 target/site/index.html
 ```
 
 ## Endpoints
 Se cuentan con dos respectivos endpoints los cuales van por método GET:
-_El primero se encarga de recibir dos parámetros por url para el valor mínimo y el valor máximo los cuales se procesarán y darán su respectivo resultado:
+_El primero se encarga de recibir dos parámetros por url para el valor mínimo y el valor máximo los cuales se procesarán y darán su respectivo resultado:_
 
 ```
 localhost:8080/intraway/api/fizzbuzz/{min}/{max}
@@ -55,7 +55,7 @@ Por ejemplo, al ejecutar **http://localhost:8080/intraway/api/fizzbuzz/1/15** ob
 }
 ```
 
-_El Segundo endpoint se encarga de mostrar un listado de todos los procesos que se han enviado y están almacenado en base de datos:
+_El Segundo endpoint se encarga de mostrar un listado de todos los procesos que se han enviado y están almacenado en base de datos:_
 
 ```
 localhost:8080/intraway/api/fizzbuzz/list
@@ -102,11 +102,11 @@ Para este obtendremos como resultado de ejemplo:
 El proyecto cuenta con su parte visual desarrollada en Angular 11.
 
 ### Pre-requisitos 📋
-_1. Es importante que al clonar elproyecto, se instalen las dependencias de npm
+_1. Es importante que al clonar elproyecto, se instalen las dependencias de npm_
 ```
 npm install
 ```
-_2. Una vez instaladas, se debe ejecutar el proyecto con:
+_2. Una vez instaladas, se debe ejecutar el proyecto con:_
 
 ```
 ng serve -o
